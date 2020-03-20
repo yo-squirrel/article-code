@@ -5,7 +5,7 @@ module.exports = async (ctx, next) => {
   const path = ctx.url
   const method = ctx.method.toLowerCase()
   const whiteList = [
-    { path: /^\/api\/v[1-9]\/tokens/, method: 'post' },
+    { path: /^\/api\/tokens/, method: 'post' },
     { path: /^\/api/, reverse: true }, // 非 /api 开头的资源都不需要经过请求校验
   ]
   const checker = (i) => {

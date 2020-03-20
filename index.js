@@ -8,7 +8,7 @@ const verifyToken = require('./middleware/verify-token')
 const errorHandler = require('./middleware/error-handler')
 
 new Pug({
-  viewPath: path.resolve(__dirname, './views'),
+  viewPath: path.resolve(__dirname, './view'),
   app,
 })
 
