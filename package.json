@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yo-squirrel/article-source-code.git"
+  },
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "config": "^3.3.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-pug": "^4.0.3",
+    "nodemon": "^2.0.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yo-squirrel/article-source-code/issues"
+  },
+  "homepage": "https://github.com/yo-squirrel/article-source-code#readme"
+}

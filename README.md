@@ -1,16 +1,18 @@
-# 仓库说明
-此仓库主要存储发布于微信公众号「松鼠专栏」及其他技术论坛上原创文章的完整示例。每篇文章的示例存储于仓库对应的一个分支，可以通过点击以下「文章 & 示例地址」章节直接查看。
+# 如何运行项目
+## 安装依赖
+```sh
+yarn
+````
 
-# 公众号「松鼠专栏」
-公众号「松鼠专栏」会时不时发表我对技术的一些理解，频率大概是 1～2 星期左右
+## 运行项目
+```sh
+npm run dev
+```
 
-每天会尽量发一些面试相关的题目，长期的储备才能应付不时之需
-
-偶尔会发表一些非技术相关的内容
-
-欢迎通过以下二维码关注我，希望这些内容能帮到你
-
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/kfQPQbcRxcvGHNkcGnZY9jGQGjWw0BV48szibgxfqlFnclIvLkcYUoGdUBPJnWAE9ffMVa9Ficj4Q8iaaVbVcmgnQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" height="150" width="150">
-
-# 文章 & 示例地址
-- [JWT 到底应该怎么用才对]()：[示例完整源码]()
+# 文件 & 文件夹
+- config：配置文件夹
+- controller：控制器
+- middleware：中间件
+- view：pug 格式视图
+- index.js：启动文件
+- router.js：项目路由文件
