@@ -1,5 +1,42 @@
 doctype html
 html
   head
+    script(src="https://cdn.bootcss.com/axios/0.19.2/axios.js")
   body
-    div Hello World
+    button#verify 登录
+    br
+    button#normal 正常请求
+
+    #response
+
+    script.
+      var request = axios.create({ baseURL: '/api/v1' })
+      var token
+
+      document.querySelector('#verify').addEventListener('click', function() {
+        request.post('/tokens', {
+          username: 'fakeUserName',
+          password: 'fakePassword',
+        }).then(function({ data }) {
+          token = data
+        }).catch(function(err) {
+          console.log('Request Error: ', err)
+        })
+      })
+
+      document.querySelector('#normal').addEventListener('click', function() {
+        if (!token) {
+          alert('请登录')
+          return
+        }
+
+        request.get('/users', {
+          headers: {
+            Authorization: 'Bearer ' + token
+          },
+        }).then(function({ data }) {
+          document.querySelector('#response').innerHTML = JSON.stringify(data)
+        }).catch(function(err) {
+          console.log('Request Error: ', err)
+        })
+      })

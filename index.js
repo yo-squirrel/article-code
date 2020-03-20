@@ -4,16 +4,18 @@ const Pug = require('koa-pug')
 const koaBody = require('koa-body')
 const app = new Koa()
 const router = require('./router')
+const verifyToken = require('./middleware/verify-token')
 const errorHandler = require('./middleware/error-handler')
 
 new Pug({
-  viewPath: path.resolve(__dirname, './view'),
+  viewPath: path.resolve(__dirname, './views'),
   app,
 })
 
 app
   .use(koaBody())
   .use(errorHandler)
+  .use(verifyToken)
   .use(router.routes())
   .use(router.allowedMethods())
   .on('error', (err, ctx) => {
