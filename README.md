@@ -4,8 +4,6 @@
 # 公众号「松鼠专栏」
 公众号「松鼠专栏」会时不时发表我对技术的一些理解，频率大概是 1～2 星期左右
 
-每天会尽量发一些面试相关的题目，长期的储备才能应付不时之需
-
 偶尔会发表一些非技术相关的内容
 
 欢迎通过以下二维码关注我，希望这些内容能帮到你
@@ -13,4 +11,4 @@
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/kfQPQbcRxcvGHNkcGnZY9jGQGjWw0BV48szibgxfqlFnclIvLkcYUoGdUBPJnWAE9ffMVa9Ficj4Q8iaaVbVcmgnQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" height="150" width="150">
 
 # 文章 & 示例地址
-- [JWT 到底应该怎么用才对]()：[示例完整源码](https://github.com/yo-squirrel/article-source-code/tree/article/jwt)
+- [JWT 到底应该怎么用才对](https://mp.weixin.qq.com/s/cTb2PDiQCXnYz7johBsmsA)：[示例完整源码](https://github.com/yo-squirrel/article-source-code/tree/article/jwt)
