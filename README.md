@@ -12,3 +12,4 @@
 
 # 文章 & 示例地址
 - [JWT 到底应该怎么用才对](https://mp.weixin.qq.com/s/cTb2PDiQCXnYz7johBsmsA)：[示例完整源码](https://github.com/yo-squirrel/article-source-code/tree/article/jwt)
+- [一篇文章看懂 OAuth2](https://mp.weixin.qq.com/s/Qpb03oBqODJjCz-HRGHnYQ)：[示例完整源码](https://github.com/yo-squirrel/article-source-code/tree/article/oauth2)
