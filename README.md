@@ -4,8 +4,6 @@
 # 公众号「松鼠专栏」
 公众号「松鼠专栏」会时不时发表我对技术的一些理解，频率大概是 1～2 星期左右
 
-偶尔会发表一些非技术相关的内容
-
 欢迎通过以下二维码关注我，希望这些内容能帮到你
 
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/kfQPQbcRxcvGHNkcGnZY9jGQGjWw0BV48szibgxfqlFnclIvLkcYUoGdUBPJnWAE9ffMVa9Ficj4Q8iaaVbVcmgnQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" height="150" width="150">
